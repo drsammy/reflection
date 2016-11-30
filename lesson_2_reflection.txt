@@ -15,3 +15,6 @@ Using diagrams, it is easier for to see how the structure is. I know where the c
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Once I merge the branches, all changes made in both of them are merged. So, if there were different kind of changes made to a code, merge will ensure that all kinds of changes are incorporated in the new version.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+If there is no conflict, this automatic merge works really well, and there is no need to manually make the changes in the code and commit them. However, when there is a commit, git cannot resolve it automatically and the user(s) needs to figure out how to consolidate the changes.
