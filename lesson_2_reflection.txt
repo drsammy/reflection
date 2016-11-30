@@ -3,3 +3,15 @@ Git sends an output stating that the repository has been initilized. The reason 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is an intermediate place where files are stored. When commited, the staging area is placed into the repository as a new commit. Files which need to be commited from the working directory are first placed in the staging area. The advantage that it offers is that we can choose which files to include in a single commit instead of placing the entire contents of the working directory.
+
+How can you use the staging area to make sure you have one commit per logical change?
+I will add only those files to the staging area  at a given timewhich represent a logical change. I will commit this and then proceed for another logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+In cases where I need to make an alternative change, for example change a feature to work in a different way, and I want both of them to stay.
+
+How do the diagrams help you visualize the branch structure?
+Using diagrams, it is easier for to see how the structure is. I know where the changes were made and how the different versions vary, especially when changes are made by different collaborators.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Once I merge the branches, all changes made in both of them are merged. So, if there were different kind of changes made to a code, merge will ensure that all kinds of changes are incorporated in the new version.
