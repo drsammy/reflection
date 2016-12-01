@@ -6,3 +6,9 @@ Sometimes, I may want to add a feature to a repostory and in the meantime, someo
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forking is like cloning a repository, but on github. So I take someone's repository and clone it into my account. The original owner is acknowledged. All changes that I make are in the copy present in my account. The original owner's repository won't get updated with my changes. I can ask the original owner to incorporate my changes. This way, I can modify someone else's code without changing his/her version of it.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+This is the copy that I will be working on. Additionally, I would want to know what changs others made to this repository, which can be done using diff on the master and the origin/master.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Github makes collaboration easier. However, people still need to manually look at different changes and integrating the code changes made by different contributors takes time. If this process can be done automatically, it will make everything much simpler.
